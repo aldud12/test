@@ -1,0 +1,136 @@
+.d-flex{
+    display: flex;
+}
+nav{
+    width: 1774px;
+    margin: auto;
+    padding: 26px 0;
+    justify-content: space-between;
+}
+.navi{
+    gap: 0 48px;
+}
+.navi a{
+    text-decoration: none;
+    color: #000;
+}
+.icon ul{
+    gap: 0 11px;
+}
+.icon ul{
+    
+}
+
+.none{
+    display: none;
+}
+img{
+    width: 100%;
+}
+@media(max-width:1773px){
+    nav{
+        width: 100px;
+        padding: 26px 24px;
+
+    }
+}
+@media(max-width:1280px){
+    .icon{
+        display: block;
+    }
+    .none{
+        display: none;
+    }  
+    .navi{
+        gap: 0 11px;
+    }
+    nav{
+        justify-content: space-between;
+        padding: 24px 0;
+        width: 90%;
+        
+        
+    }
+}
+
+@media(max-width:560px){
+    .navi{
+        display: none;
+    }
+    .none{
+        display: block;
+    }
+    .a{
+        display: none;
+    }
+
+}
+@media(min-width:600px){
+  
+}
+@media only screen and(max-width:600px){
+
+}
+@media (min-width: 768px) and (max-width:1920px){
+}
+
+@media(min-width:600px) and (max-width:1280px){
+    .navi{
+        font-size: 18px;
+        padding: 18px 18px;
+        gap: 27px;
+    }
+    .silder{
+        width: 1275px;
+        height: 503px;
+    }
+    .logo{
+        font-size: 18px;
+        padding: 18px 18px;
+    }
+    .a{
+        width: 24px;
+        height: 24px;
+        gap: 20%;
+    }
+}
+@media(min-width:540px) and (max-width:768px){
+    .navi{
+        font-size: 16px;
+        display: none;
+    }
+    .silder{
+        width: 768px;
+        height: 367px;
+        padding-bottom: 20px;
+    }
+    .logo{
+        font-size: 16px;
+    }
+    .none{
+        width: 16px;
+        height: 16px;
+        gap: 20%;
+        display: block;
+    }
+    .a{
+        display: none;
+    }
+}
+@media(min-width:0px) and (max-width:540px){
+    .navi{
+        font-size: 12px;
+        padding: 9px 9px;
+    }
+    .silder{
+        width: 576px;
+        height: 225px;
+    }
+    .logo{
+        font-size: 12px;
+    }
+    .none{
+        width: 12px;
+        height: 12px;
+    }
+}
